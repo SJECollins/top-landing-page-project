@@ -48,6 +48,7 @@ html, body {
 
 .hero-content {
     background-color: #1f2937;
+    min-height: 300px;
     padding: 0 20vw;
     display: flex;
     flex-direction: row;
@@ -80,6 +81,7 @@ html, body {
 .main-content {
     background-color: #ffffff;
     align-items: center;
+    min-height: 300px;
     padding: 20px 20vw;
 }
 
@@ -104,20 +106,38 @@ html, body {
 }
 
 .main-boxes p {
-
+    padding: 2px 20px;
 }
 
 /* Styling for quote section */
 
 .quote-box {
     background-color: #e5e7eb;
+    min-height: 300px;
     padding: 0 20vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-box > .quote {
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1f2937;
+    padding: 50px 0 0 0;
+    text-align: left;
+}
+
+.quote-box > .quoted {
+    font-weight: bold;
+    text-align: right;
 }
 
 /* Styling for call to action section */
 
 .call-to-action {
     background-color: #ffffff;
+    min-height: 300px;;
     padding: 20 20vw;
 }
 
