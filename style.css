@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 /* Styling the header and navbar */
@@ -11,7 +12,7 @@
     padding: 30px 50px;
 }
 
-.header > p{
+.header > p {
     font-size: 1.5em;
     color: #f9faf8;
     font-weight: 700;
@@ -44,12 +45,50 @@
 
 .hero-content {
     background-color: #1f2937;
+    padding: 0 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-left > h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    text-align: left;
+}
+
+.hero-left > p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-left > button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 6px 12px;
+    border-radius: 18px;
+    float: left;
 }
 
 /* Styling for main content */
 
 .main-content {
     background-color: #ffffff;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.main-boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.main-boxes img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #3882f6;
+    border-radius: 10%;
+    object-fit: cover;
 }
 
 /* Styling for quote section */
