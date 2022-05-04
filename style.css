@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the header and navbar */
+
+.header {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 30px 50px;
+}
+
+.header > p{
+    font-size: 1.5em;
+    color: #f9faf8;
+    font-weight: 700;
+    float: left;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+    padding-right: 20px;
+    margin-left: auto;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 0 20px;
+}
+
+/* Styling for hero section */
+
+.hero-content {
+    background-color: #1f2937;
+}
+
+/* Styling for main content */
+
+.main-content {
+    background-color: #ffffff;
+}
+
+/* Styling for quote section */
+
+.quote-box {
+    background-color: #e5e7eb;
+}
+
+/* Styling for call to action section */
+
+.call-to-action {
+    background-color: #ffffff;
+}
+
+/* Styling for footer */
+
+footer {
+    background-color: #1f2937;
+}
