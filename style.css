@@ -4,12 +4,15 @@
     text-align: center;
 }
 
-/* Styling the header and navbar */
+html, body {
+    height: 100%;
+}
 
+/* Styling the header and navbar */
 .header {
     background-color: #1f2937;
     color: #e5e7eb;
-    padding: 30px 50px;
+    padding: 30px 20vw;
 }
 
 .header > p {
@@ -45,7 +48,7 @@
 
 .hero-content {
     background-color: #1f2937;
-    padding: 0 150px;
+    padding: 0 20vw;
     display: flex;
     flex-direction: row;
 }
@@ -60,12 +63,14 @@
 .hero-left > p {
     font-size: 18px;
     color: #e5e7eb;
+    text-align: left;
 }
 
 .hero-left > button {
     color: #f9faf8;
     background-color: #3882f6;
     padding: 6px 12px;
+    border-color: #3882f6;
     border-radius: 18px;
     float: left;
 }
@@ -75,7 +80,14 @@
 .main-content {
     background-color: #ffffff;
     align-items: center;
-    padding: 20px 30px;
+    padding: 20px 20vw;
+}
+
+.main-content > h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    padding: 20px 0;
 }
 
 .main-boxes {
@@ -84,27 +96,38 @@
 }
 
 .main-boxes img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 1px solid #3882f6;
     border-radius: 10%;
-    object-fit: cover;
+    object-fit: contain;
+}
+
+.main-boxes p {
+
 }
 
 /* Styling for quote section */
 
 .quote-box {
     background-color: #e5e7eb;
+    padding: 0 20vw;
 }
 
 /* Styling for call to action section */
 
 .call-to-action {
     background-color: #ffffff;
+    padding: 20 20vw;
 }
 
 /* Styling for footer */
 
 footer {
     background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 20px 20vw;
+    position: sticky;
+    top: 100vh;
 }
